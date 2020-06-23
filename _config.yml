@@ -5,11 +5,11 @@
 # Site
 title: Yet Another
 subtitle: ''
-description: ''
+description: 「又是一个」又是一档有关于计算机科学、应用与八卦的播客节目
 keywords: [Yet Another, 又是一个, Podcast]
 author: Yet Another FM
 language: zh-CN
-timezone: ''
+timezone: Asia/Tokyo
 default_thumb: /static/artwork.png
 menu:
   podcasts: /
