@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-Nlvi"]
+	path = themes/Nlvi
+	url = git@github.com:colmugx/hexo-theme-Nlvi.git
