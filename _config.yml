@@ -113,6 +113,8 @@ theme_config:
     github: rubiruby/yetanother-fm
     twitter: YetFm
     facebook: YetAnotherFM
+  analytics:
+      google: UA-127825283-3
 
 #Podcast
 podcast:
