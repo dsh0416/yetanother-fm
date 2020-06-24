@@ -13,7 +13,6 @@ timezone: Asia/Tokyo
 default_thumb: /static/artwork.png
 menu:
   podcasts: /
-  tags: /tags
   about: /about
   rss: /podcast.xml
 
@@ -112,6 +111,8 @@ theme_config:
     disqus: yetanotherfm
   sub:
     github: rubiruby/yetanother-fm
+    twitter: YetFm
+    facebook: YetAnotherFM
 
 #Podcast
 podcast:
