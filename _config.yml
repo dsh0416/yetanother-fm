@@ -120,7 +120,7 @@ podcast:
   limit: 1000
   url: https://yetanother.fm/static/podcasts
   explicit: false
-  description: 「又是一个」又是一档有关于计算机科学、应用与八卦的播客节目
+  description: 「又是一个」又是一档关于计算机科学、应用与八卦的播客节目。
   language: zh-CN
   owner: Delton Ding
   email: feedback@yetanother.fm

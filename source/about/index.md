@@ -20,7 +20,6 @@ comments: false
 - [Pockset Casts]()
 - [Apple Podcasts]()
 - [Google Podcasts]()
-- [Spotify]()
 
 如果你使用其它客户端，请尝试在应用内搜索「又是一个」或使用我们的 [Podcast RSS 订阅源](/podcast.xml) 进行订阅。
 
