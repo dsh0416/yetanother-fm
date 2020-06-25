@@ -103,7 +103,7 @@ theme_config:
   favicon: /static/favicon.png
   scheme: banderole
   toc: false
-  lightbox: true
+  lightbox: false
   animate: true
   since: 2019
   comments:
