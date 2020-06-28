@@ -17,9 +17,7 @@ comments: false
 
 稍后，我们会对录制内容进行整理并发布。我们推荐你使用泛用型 Podcast 客户端收听我们的节目。
 
-- [Pockset Casts]()
-- [Apple Podcasts]()
-- [Google Podcasts]()
+- [Pockset Casts](https://pca.st/uj7qjzqd)
 
 如果你使用其它客户端，请尝试在应用内搜索「又是一个」或使用我们的 [Podcast RSS 订阅源](/podcast.xml) 进行订阅。
 

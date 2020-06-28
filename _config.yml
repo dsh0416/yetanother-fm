@@ -121,7 +121,7 @@ podcast:
   type: rss2
   path: podcast.xml
   limit: 1000
-  url: https://yetanother.fm/static/podcasts
+  url: https://cdn.yetanother.fm/blob-storage/audio
   explicit: false
   description: 「又是一个」又是一档关于计算机科学、应用与八卦的播客节目。
   language: zh-CN
