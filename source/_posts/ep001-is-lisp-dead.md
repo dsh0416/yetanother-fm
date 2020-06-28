@@ -1,8 +1,8 @@
 ---
-title: Ep 1. Is Lisp Dead?
+title: "Ep. 1: Is Lisp Dead?"
 subtitle: 本期邀请开源哥和岛娘来聊一聊 Lisp 和其衍生语言的前世今生
 date: 2020-06-28 11:00:00
-tags: [Lisp, 编程语言]
+tags: [Lisp, 编程语言, Ruby, Python, Haskell]
 category: podcast
 media: /episode1.mp3
 length: 185355781
@@ -20,7 +20,7 @@ chapters:
 
 ![Banner](https://yetanother.fm/static/baneers/ep001.png)
 
-本期邀请开源哥和岛娘聊一聊 Lisp 和其衍生语言的前世、今生与未来。
+本期邀请[开源哥](https://twitter.com/zshangsr)和[岛娘](https://twitter.com/MinakoOikawa)聊一聊 Lisp 和其衍生语言的前世、今生与未来。
 
 <!-- more -->
 
