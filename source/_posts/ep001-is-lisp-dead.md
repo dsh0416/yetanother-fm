@@ -52,4 +52,5 @@ chapters:
 
 - [录音文件](https://cdn.yetanother.fm/blob-storage/audio/episode1.mp3)
 - [YouTube](https://www.youtube.com/watch?v=b7ZYb_TRkcE)
+- [Bilibili](https://www.bilibili.com/video/BV1Xz411e7XH)
 - [使用 Podcast 客户端订阅](/about)
