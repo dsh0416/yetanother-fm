@@ -40,12 +40,12 @@ chapters:
     - GC
   - Lisp 的历史背景: Fortran, 可计算性
   - Lisp Machine (https://youtu.be/ucAsjeGPuKo?t=290) 
-    - https://en.wikipedia.org/wiki/Lisp_machine
+    - [维基百科](https://en.wikipedia.org/wiki/Lisp_machine)
     - [SECD Machine](https://en.wikipedia.org/wiki/SECD_machine)
 - Lisp 的方言与衍生语言
 - Lisp 方言现在都活得怎么样？
 - 对 Lisp 的评价
-- LISP 与二次元亚文化
+- Lisp 与二次元亚文化
 
 
 ## 本期收听地址
