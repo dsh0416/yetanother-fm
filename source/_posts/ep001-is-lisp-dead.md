@@ -18,13 +18,13 @@ chapters:
   - ["02:05:30.000", "尾声"]
 ---
 
-![Banner](/static/baneers/ep001.png)
+![Banner](https://yetanother.fm/static/baneers/ep001.png)
 
 本期邀请开源哥和岛娘聊一聊 Lisp 和其衍生语言的前世、今生与未来。
 
 <!-- more -->
 
-![Lisp Classification](/static/misc/lisp-classification.jpg)
+![Lisp Classification](https://yetanother.fm/static/misc/lisp-classification.jpg)
 
 ## 内容大纲
 
