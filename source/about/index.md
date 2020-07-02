@@ -20,8 +20,9 @@ comments: false
 - [Pocket Casts](https://pca.st/uj7qjzqd)
 - [Apple Podcast](https://podcasts.apple.com/jp/podcast/ep-1-is-lisp-dead/id1521122825)
 - [Overcast](https://overcast.fm/itunes1521122825/yet-another)
+- [Castro](https://castro.fm/podcast/880a8af4-db86-43e1-ae43-2120bbc65863)
 
-如果你使用其它客户端，请尝试在应用内搜索「又是一个」或使用我们的 [Podcast RSS 订阅源](/podcast.xml) 进行订阅。
+如果你使用其它客户端，请尝试在应用内搜索「Yet Another 又是一个」或使用我们的 [Podcast RSS 订阅源](/podcast.xml) 进行订阅。
 
 ## 联系方式
 
