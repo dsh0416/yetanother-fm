@@ -226,7 +226,6 @@ body {
 }
 a {
   -webkit-tap-highlight-color: transparent;
-  text-decoration: none;
   color: #383838;
 }
 h1 {
@@ -1320,10 +1319,6 @@ body.under {
   font-size: 18px;
   text-decoration: none;
 }
-.post .post-content .content-link a:hover,
-.archive .archive-post .archive-post-content .content-link a:hover {
-  text-decoration: none;
-}
 .post .post-content .content-link a:after,
 .archive .archive-post .archive-post-content .content-link a:after {
   content: '';
@@ -1354,7 +1349,6 @@ body.under {
 .post .post-content a,
 .archive .archive-post .archive-post-content a {
   color: #383838;
-  text-decoration: none;
 }
 .post .post-content i,
 .archive .archive-post .archive-post-content i {
