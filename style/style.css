@@ -731,8 +731,6 @@ h6 {
   padding: 0 16px;
 }
 .about .content a {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
   padding-bottom: 1px;
   transition: color 280ms cubic-bezier(0.8, 0, 0.2, 1);
   -moz-transition: color 280ms cubic-bezier(0.8, 0, 0.2, 1);
