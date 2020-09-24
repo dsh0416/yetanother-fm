@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Yet Another 又是一个">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
+
+  <link rel="apple-touch-icon"  sizes="72x72"  href="/static/favicon.png">
+  <link rel="apple-touch-icon-precomposed"  sizes="72x72"  href="/static/favicon.png">
+
+
+
+  <meta name="description" content="「又是一个」又是一档有关于计算机科学、应用与八卦的播客节目">
+
+
+  <meta name="keywords" content="Yet Another,又是一个,Podcast" />
+
+
+  <meta name="keywords" content="Lisp, 编程语言, Ruby, Python, Haskell, nlvi" />
+
+
+<link rel="apple-touch-startup-image" media="(device-width: 375px)" href="assets/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(orientation: landscape)" href="assets/apple-touch-startup-image-2048x1496.png">
+
+<link rel="stylesheet" href="/style/style.css">
+
+<script>
+  var nlviconfig = {
+    title: "Yet Another 又是一个",
+    author: "Yet Another FM",
+    baseUrl: "/",
+    theme: {
+      scheme: "banderole",
+      lightbox: false,
+      animate: true,
+      search: false,
+      friends: false,
+      reward: false,
+      pjax: false,
+      lazy: false,
+      toc: false
+    }
+  }
+</script>
+
+
+
+
+
+
+
+    
+<link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
+
+
+
+
+
+    <link rel="icon" href="/static/favicon.png">
+
+
+
+
+    <link rel="alternate" type="application/rss+xml" href="/podcast.xml" />
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127825283-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127825283-3');
+</script>
+
+
+
+
+
+
+
+<style>
+@font-face {
+  font-family: "Allura";
+  src: url('/font/allura/allura.ttf');
+}
+</style>
+
+  <title> Ep. 1: Is Lisp Dead? · Yet Another 又是一个 </title>
+<meta name="generator" content="Hexo 4.2.1"></head>
+<body>
+  <div class="container">
+    <header class="header" id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+  <div class="logo-inner syuanpi tvIn" style="display:none;">
+    <h1><a href="/">Yet Another 又是一个</a></h1>
+    
+  </div>
+</div>
+
+    <nav class="main-nav">
+  
+  <ul class="main-nav-list syuanpi tvIn">
+  
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="/" id="podcasts">
+        <span class="base-name">
+          
+            PODCASTS
+          
+        </span>
+      </a>
+    </li>
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="/about" id="about">
+        <span class="base-name">
+          
+            ABOUT
+          
+        </span>
+      </a>
+    </li>
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="/podcast.xml" id="rss">
+        <span class="base-name">
+          
+            RSS
+          
+        </span>
+      </a>
+    </li>
+  
+  
+  </ul>
+  
+</nav>
+
+  </div>
+</header>
+<div class="mobile-header" id="mobile-header">
+  <div class="mobile-header-nav">
+    <div class="mobile-header-item" id="mobile-left">
+      <div class="header-menu-item">
+        <div class="header-menu-line"></div>
+      </div>
+    </div>
+    <h1 class="mobile-header-title">
+      <a href="/">Yet Another 又是一个</a>
+    </h1>
+    <div class="mobile-header-item"></div>
+  </div>
+  <div class="mobile-header-body">
+    <ul class="mobile-header-list">
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-0">
+          <a href="/" >
+            
+              PODCASTS
+            
+          </a>
+        </li>
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-1">
+          <a href="/about" >
+            
+              ABOUT
+            
+          </a>
+        </li>
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-2">
+          <a href="/podcast.xml" >
+            
+              RSS
+            
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+    <div class="container-inner" style="display:none;">
+      <main class="main" id="main">
+        <div class="main-wrapper">
+          
+    
+  
+  <article class="
+  post
+   is_post 
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInRightShort back-1">
+        <div class="post-time-wrapper">
+          
+          <time>2020-06-28</time>
+          
+            
+              <span class="post-category"><a href="/categories/podcast/">podcast</a></span>
+            
+          
+        </div>
+      </div>
+      <h1 class="post-title syuanpi fadeInRightShort back-2">
+        
+          Ep. 1: Is Lisp Dead?
+        
+      </h1>
+    </header>
+    <div class="post-content syuanpi fadeInRightShort back-3">
+      
+        <p><img src="https://yetanother.fm/static/baneers/ep001.png" alt="Banner"></p>
+<p>本期邀请<a href="https://twitter.com/zshangsr" target="_blank" rel="noopener">开源哥</a>和<a href="https://twitter.com/MinakoOikawa" target="_blank" rel="noopener">岛娘</a>聊一聊 Lisp 和其衍生语言的前世、今生与未来。</p>
+<a id="more"></a>
+
+<p><img src="https://yetanother.fm/static/misc/lisp-classification.jpg" alt="Lisp Classification"></p>
+<h2 id="内容大纲"><a href="#内容大纲" class="headerlink" title="内容大纲"></a>内容大纲</h2><ul>
+<li>祝开源哥新婚快乐</li>
+<li>Lisp 是什么？<ul>
+<li>有哪些 Lisp 很容易做而 Fortran 不好做的事？<ul>
+<li>Fortran 的 target 是数值计算，Lisp 的 target 是符号计算</li>
+<li>if-then-else</li>
+<li>内存管理</li>
+<li>动态的函数定义</li>
+</ul>
+</li>
+<li>Lisp 带来了哪些技术？</li>
+<li><ul>
+<li>宏</li>
+<li>GC</li>
+</ul>
+</li>
+<li>Lisp 的历史背景: Fortran, 可计算性</li>
+<li>Lisp Machine (<a href="https://youtu.be/ucAsjeGPuKo?t=290" target="_blank" rel="noopener">https://youtu.be/ucAsjeGPuKo?t=290</a>) <ul>
+<li><a href="https://en.wikipedia.org/wiki/Lisp_machine" target="_blank" rel="noopener">维基百科</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SECD_machine" target="_blank" rel="noopener">SECD Machine</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Lisp 的方言与衍生语言</li>
+<li>Lisp 方言现在都活得怎么样？</li>
+<li>对 Lisp 的评价</li>
+<li>Lisp 与二次元亚文化</li>
+</ul>
+<h2 id="本期收听地址"><a href="#本期收听地址" class="headerlink" title="本期收听地址"></a>本期收听地址</h2><ul>
+<li><a href="https://cdn.yetanother.fm/blob-storage/audio/episode1.mp3" target="_blank" rel="noopener">录音文件</a></li>
+<li><a href="https://www.youtube.com/watch?v=b7ZYb_TRkcE" target="_blank" rel="noopener">YouTube</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Xz411e7XH" target="_blank" rel="noopener">Bilibili</a></li>
+<li><a href="/about">使用 Podcast 客户端订阅</a></li>
+</ul>
+
+      
+    
+    </div>
+    
+      <div class="post-tags syuanpi fadeInRightShort back-3">
+      
+        <a href="/tags/Lisp/">Lisp</a>
+      
+        <a href="/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/">编程语言</a>
+      
+        <a href="/tags/Ruby/">Ruby</a>
+      
+        <a href="/tags/Python/">Python</a>
+      
+        <a href="/tags/Haskell/">Haskell</a>
+      
+      </div>
+    
+    
+      
+
+      
+    
+  </article>
+  
+    
+  <nav class="article-page">
+    
+      <a href="/2020/09/24/ep002-language-confs/" id="art-left" class="art-left">
+        <span class="next-title">
+          <i class="iconfont icon-left"></i>Ep. 2: Language Confs
+        </span>
+      </a>
+    
+    
+  </nav>
+
+
+    
+  <i id="com-switch" class="iconfont icon-down jumping-in long infinite" style="font-size:24px;display:block;text-align:center;transform:rotate(180deg);"></i>
+  <div class="post-comments" id="post-comments" style="display: block;margin: auto 16px;">
+    
+
+    
+    
+<!-- Disqus Comments -->
+<div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+</div>
+<script type="text/javascript">
+    var disqus_shortname = 'yetanotherfm';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+
+  </div>
+
+
+
+  
+  
+    
+  
+
+
+  
+
+
+        </div>
+      </main>
+      <footer class="footer syuanpi fadeIn" id="footer">
+  <hr>
+  <div class="footer-wrapper">
+    <div class="left">
+      <div class="contact-icon">
+  
+  
+    <a href="https://github.com/rubiruby/yetanother-fm" target="_blank" rel="noopener" class="iconfont icon-github" title="github"></a>
+  
+    <a href="https://twitter.com/YetFm" target="_blank" rel="noopener" class="iconfont icon-twitter" title="twitter"></a>
+  
+    <a href="https://www.facebook.com/YetAnotherFM" target="_blank" rel="noopener" class="iconfont icon-facebook" title="facebook"></a>
+  
+</div>
+
+    </div>
+    <div class="right">
+      <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span>2019 ~ 2020</span>
+        <span>❤</span>
+        <span>Yet Another FM</span>
+    </div>
+    <div class="theme">
+        <span>
+            动力来源于
+            <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo </a>
+        </span>
+        <span>
+            主题
+            <a href="https://github.com/ColMugX/hexo-theme-Nlvi" target="_blank" rel="noopener"> Nlvi </a>
+        </span>
+    </div>
+    
+</div>
+
+    </div>
+  </div>
+</footer>
+    </div>
+    <div class="tagcloud" id="tagcloud">
+  <div class="tagcloud-taglist">
+  
+    <div class="tagcloud-tag">
+      <button>Lisp</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>编程语言</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>Ruby</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>Python</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>Haskell</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>会议</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>RubyConf China</button>
+    </div>
+  
+    <div class="tagcloud-tag">
+      <button>PyCon China</button>
+    </div>
+  
+  </div>
+  
+    <div class="tagcloud-postlist active">
+      <h2>Lisp</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/06/28/ep001-is-lisp-dead/">
+            <time class="tagcloud-posttime">2020 / 06 / 28</time>
+            <span>Ep. 1: Is Lisp Dead?</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>编程语言</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/06/28/ep001-is-lisp-dead/">
+            <time class="tagcloud-posttime">2020 / 06 / 28</time>
+            <span>Ep. 1: Is Lisp Dead?</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/09/24/ep002-language-confs/">
+            <time class="tagcloud-posttime">2020 / 09 / 24</time>
+            <span>Ep. 2: Language Confs</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>Ruby</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/06/28/ep001-is-lisp-dead/">
+            <time class="tagcloud-posttime">2020 / 06 / 28</time>
+            <span>Ep. 1: Is Lisp Dead?</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/09/24/ep002-language-confs/">
+            <time class="tagcloud-posttime">2020 / 09 / 24</time>
+            <span>Ep. 2: Language Confs</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>Python</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/06/28/ep001-is-lisp-dead/">
+            <time class="tagcloud-posttime">2020 / 06 / 28</time>
+            <span>Ep. 1: Is Lisp Dead?</span>
+          </a>
+        </div>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/09/24/ep002-language-confs/">
+            <time class="tagcloud-posttime">2020 / 09 / 24</time>
+            <span>Ep. 2: Language Confs</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>Haskell</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/06/28/ep001-is-lisp-dead/">
+            <time class="tagcloud-posttime">2020 / 06 / 28</time>
+            <span>Ep. 1: Is Lisp Dead?</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>会议</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/09/24/ep002-language-confs/">
+            <time class="tagcloud-posttime">2020 / 09 / 24</time>
+            <span>Ep. 2: Language Confs</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>RubyConf China</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/09/24/ep002-language-confs/">
+            <time class="tagcloud-posttime">2020 / 09 / 24</time>
+            <span>Ep. 2: Language Confs</span>
+          </a>
+        </div>
+      
+    </div>
+  
+    <div class="tagcloud-postlist ">
+      <h2>PyCon China</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/09/24/ep002-language-confs/">
+            <time class="tagcloud-posttime">2020 / 09 / 24</time>
+            <span>Ep. 2: Language Confs</span>
+          </a>
+        </div>
+      
+    </div>
+  
+</div>
+
+  </div>
+  <div class="backtop syuanpi melt toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/script/scheme/banderole.js"></script>
+
+
+
+
+<script src="/script/bootstarp.js"></script>
+
+
+
+<script>
+if (nlviconfig.theme.toc) {
+  setTimeout(function() {
+    if (nlviconfig.theme.scheme === 'balance') {
+      $("#header").addClass("show_toc");
+    } else if (nlviconfig.theme.scheme === 'banderole') {
+      $(".container-inner").addClass("has_toc");
+      $(".post-toc .title").addClass("show");
+      $(".toc-inner").addClass("show");
+    }
+  }, 1000);
+}
+</script>
+
+
+
+</body>
+</html>
