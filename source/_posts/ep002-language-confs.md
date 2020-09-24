@@ -39,4 +39,6 @@ chapters:
 ## 本期收听地址
 
 - [录音文件](https://cdn.yetanother.fm/blob-storage/audio/episode2.mp3)
+- [YouTube](https://www.youtube.com/watch?v=rqUocACmzhs)
+- [Bilibili](https://www.bilibili.com/video/BV1Wt4y1q7Cd)
 - [使用 Podcast 客户端订阅](/about)
