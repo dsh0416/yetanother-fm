@@ -18,7 +18,7 @@ comments: false
 稍后，我们会对录制内容进行整理并发布。我们推荐你使用泛用型 Podcast 客户端收听我们的节目。
 
 - [Pocket Casts](https://pca.st/uj7qjzqd)
-- [Apple Podcast](https://podcasts.apple.com/jp/podcast/ep-1-is-lisp-dead/id1521122825)
+- [Apple Podcast](https://podcasts.apple.com/jp/podcast/yet-another-%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA/id1521122825)
 - [Overcast](https://overcast.fm/itunes1521122825/yet-another)
 - [Castro](https://castro.fm/podcast/880a8af4-db86-43e1-ae43-2120bbc65863)
 
