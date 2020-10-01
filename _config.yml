@@ -8,7 +8,7 @@ subtitle: ''
 description: Yet Another「又是一个」又是一档有关于计算机科学、应用与八卦的播客节目
 keywords: [Yet Another, 又是一个, Podcast]
 author: Yet Another FM
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Tokyo
 default_thumb: /static/artwork.png
 menu:
@@ -124,7 +124,7 @@ podcast:
   url: https://cdn.yetanother.fm/blob-storage/audio
   explicit: false
   description: 「又是一个」又是一档关于计算机科学、应用与八卦的播客节目。
-  language: zh-CN
+  language: zh-Hans
   owner: Yet Another FM
   email: feedback@yetanother.fm
   category: Technology
