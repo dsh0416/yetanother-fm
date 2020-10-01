@@ -655,10 +655,9 @@ hexo-generator-index@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-podcast@^2.0.7:
+hexo-generator-podcast@dsh0416/hexo-generator-podcast#master:
   version "2.0.7"
-  resolved "https://registry.yarnpkg.com/hexo-generator-podcast/-/hexo-generator-podcast-2.0.7.tgz#30c2ed69a753cbecb5c3f1263b8ff6c0dedcae91"
-  integrity sha512-bkgXk8EyFCUMZ2GK5e6Lr8b02AGKYVSyww58LwaUdVfeq3BnkQ+9mtNGgmLEPgN5E1j1BVaL+EJzMpjv0dqGPw==
+  resolved "https://codeload.github.com/dsh0416/hexo-generator-podcast/tar.gz/9430d47dea1e231ef47045b0dd2a54e47d94eabb"
   dependencies:
     locutus "^2.0.11"
     nunjucks "^3.2.0"
