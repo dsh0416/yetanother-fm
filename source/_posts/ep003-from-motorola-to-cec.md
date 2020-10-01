@@ -91,4 +91,5 @@ MOS 6502 虽然是一款成功的 CPU，但是其系列的命运却是昙花一�
 
 - [录音文件](https://cdn.yetanother.fm/blob-storage/audio/episode3.mp3)
 - [YouTube](https://www.youtube.com/watch?v=VwWTjth1uAA)
+- [Bilibili](https://www.bilibili.com/video/BV1sv411y7jN/)
 - [使用 Podcast 客户端订阅](/about)
