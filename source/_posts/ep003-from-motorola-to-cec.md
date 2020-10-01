@@ -86,3 +86,9 @@ Commodore 64 使用的是 MOS 6502 的改进型 MOS 6510 CPU。其和 MOS 6502 �
 MOS 6502 虽然是一款成功的 CPU，但是其系列的命运却是昙花一现的。由于 Commodore 的几次人事变动，使得 Commodore 的产品开发陷入了混乱。其后续机型比如 Commodore Plus/4、Commodore 16、Commodore SX-64 都是非常不成功的。一直到 1987 年 Commodore 放弃了 MOS 系列芯片，改投入 IBM PC 兼容机的怀抱，从此个人计算机的时间线收束，合并到了我们熟悉的 x86 架构。而如果我们就算站在今天的上帝视角，也可以看出就算 Commodore 当时的决策正确，MOS 65 系列也很难逃过失败的命运。MOS 6502 支持的一些动态指令修改的特性虽然方便了汇编开发者，但是会使得现代 CPU 的常用优化，比如分支预测、指令流水线、乱序发射变得极难实现。
 
 但无论如何，1973 一位服务于美国摩托罗拉的一名电气工程师的一个疯狂的想法，改变了 CPU 的成本、改变了个人计算机的命运、启蒙了无数人的编程教育、促成了繁荣的电子游戏业、让大洋彼岸的中国人决心重视计算机教育，真正地，改变了整个世界。
+
+## 本期收听地址
+
+- [录音文件](https://cdn.yetanother.fm/blob-storage/audio/episode3.mp3)
+- [YouTube](https://www.youtube.com/watch?v=VwWTjth1uAA)
+- [使用 Podcast 客户端订阅](/about)
