@@ -1,5 +1,6 @@
 ---
 title: "Ep. 3: 从摩托罗拉到中华学习机"
+subtitle: MOS 6502 CPU 与个人计算机的历史
 date: 2020-10-01 16:52:53
 tags: [计算机史, Motorola, BASIC, Apple]
 category: podcast
