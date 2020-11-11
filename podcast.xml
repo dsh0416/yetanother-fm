@@ -63,7 +63,7 @@
       <itunes:summary></itunes:summary>
       <itunes:image href="https://cdn.yetanother.fm/blob-storage/audio"/>
       <enclosure url="https://cdn.yetanother.fm/blob-storage/audio/episode3.mp3" length="20022063" type="audio/mpeg"/>
-      <guid></guid>
+      <guid>https://yetanother.fm/2020/10/01/ep003-from-motorola-to-cec/</guid>
       <pubDate>Thu, 01 Oct 2020 07:52:53 GMT</pubDate>
       <itunes:duration>00:20:50</itunes:duration>
       <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
@@ -117,7 +117,7 @@
 本期邀请 laike9m、Manjusaka 和姜军聊一聊语言会议是什么、在做什么以及有什么意义。</itunes:summary>
       <itunes:image href="https://cdn.yetanother.fm/blob-storage/audio"/>
       <enclosure url="https://cdn.yetanother.fm/blob-storage/audio/episode2.mp3" length="90688302" type="audio/mpeg"/>
-      <guid></guid>
+      <guid>https://yetanother.fm/2020/09/24/ep002-language-confs/</guid>
       <pubDate>Thu, 24 Sep 2020 02:00:00 GMT</pubDate>
       <itunes:duration>01:34:27</itunes:duration>
       <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
@@ -186,7 +186,7 @@
 本期邀请开源哥和岛娘聊一聊 Lisp 和其衍生语言的前世、今生与未来。</itunes:summary>
       <itunes:image href="https://cdn.yetanother.fm/blob-storage/audio"/>
       <enclosure url="https://cdn.yetanother.fm/blob-storage/audio/episode1.mp3" length="185355781" type="audio/mpeg"/>
-      <guid></guid>
+      <guid>https://yetanother.fm/2020/06/28/ep001-is-lisp-dead/</guid>
       <pubDate>Sun, 28 Jun 2020 02:00:00 GMT</pubDate>
       <itunes:duration>02:08:43</itunes:duration>
       <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
