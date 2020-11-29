@@ -23,6 +23,7 @@ comments: false
 - [Castro](https://castro.fm/podcast/880a8af4-db86-43e1-ae43-2120bbc65863)
 - [Spotify](https://open.spotify.com/show/380mYSLQYu6cYU7sxEL53q)
 - [Google Podcast](https://podcasts.google.com/feed/aHR0cHM6Ly95ZXRhbm90aGVyLmZtL3BvZGNhc3QueG1s)
+- [Breaker](https://www.breaker.audio/yet-another-you-shi-ge)
 
 如果你使用其它客户端，请尝试在应用内搜索「Yet Another 又是一个」或使用我们的 [Podcast RSS 订阅源](/podcast.xml) 进行订阅。
 
