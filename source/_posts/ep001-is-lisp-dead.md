@@ -53,4 +53,5 @@ chapters:
 - [录音文件](https://cdn.yetanother.fm/blob-storage/audio/episode1.mp3)
 - [YouTube](https://www.youtube.com/watch?v=b7ZYb_TRkcE)
 - [Bilibili](https://www.bilibili.com/video/BV1Xz411e7XH)
+- [LBRY](https://lbry.tv/@coderemixer:4/yet-another-fm-ep1-is-lisp-dead:4?r=7cfbv7nhZG3xBgCRdmWozca6998WuGya)
 - [使用 Podcast 客户端订阅](/about)
