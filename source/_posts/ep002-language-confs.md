@@ -41,5 +41,5 @@ chapters:
 - [录音文件](https://cdn.yetanother.fm/blob-storage/audio/episode2.mp3)
 - [YouTube](https://www.youtube.com/watch?v=rqUocACmzhs)
 - [Bilibili](https://www.bilibili.com/video/BV1Wt4y1q7Cd)
-- [LBRY](https://lbry.tv/@coderemixer:4/「YetAnother-又是一个电台」Ep-2-Language-Confs:0?r=7cfbv7nhZG3xBgCRdmWozca6998WuGya)
+- [LBRY](lbry://@coderemixer#4/「YetAnother-又是一个电台」Ep-2-Language-Confs#0)
 - [使用 Podcast 客户端订阅](/about)
