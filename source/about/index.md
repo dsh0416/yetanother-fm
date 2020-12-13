@@ -13,7 +13,7 @@ comments: false
 
 ## 订阅收听
 
-你可以在我们的网站上直接收听节目。我们的录制会在 [YouTube CodeRemixer 频道](https://www.youtube.com/channel/UCsMZ8sYn71HrXZGMpyyECQQ) 上直播。
+你可以在我们的网站上直接收听节目。我们的录制会在 [YouTube 频道](https://www.youtube.com/channel/UCsMZ8sYn71HrXZGMpyyECQQ) 上直播。
 
 稍后，我们会对录制内容进行整理并发布。我们推荐你使用泛用型 Podcast 客户端收听我们的节目。
 
@@ -25,7 +25,13 @@ comments: false
 - [Google Podcast](https://podcasts.google.com/feed/aHR0cHM6Ly95ZXRhbm90aGVyLmZtL3BvZGNhc3QueG1s)
 - [Breaker](https://www.breaker.audio/yet-another-you-shi-ge)
 
-如果你使用其它客户端，请尝试在应用内搜索「Yet Another 又是一个」或使用我们的 [Podcast RSS 订阅源](/podcast.xml) 进行订阅。
+除此之外，你也可以在下面的视频网站订阅、收听我们的节目。
+
+- [YouTube](https://www.youtube.com/channel/UCsMZ8sYn71HrXZGMpyyECQQ/)
+- [Bilibili](https://space.bilibili.com/755076)
+- [LBRY](https://odysee.com/$/invite/@coderemixer:4)
+
+如果你使用其它 Podcast 客户端，请尝试在应用内搜索「Yet Another 又是一个」或使用我们的 [Podcast RSS 订阅源](/podcast.xml) 进行订阅。
 
 ## 联系方式
 
